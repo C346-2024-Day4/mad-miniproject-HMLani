@@ -205,7 +205,7 @@ const Edit = ({navigation, route}) => {
                                     </TouchableOpacity>
 
                                     <TouchableOpacity
-                                        style={styles.alertButton}
+                                        style={styles.alertBtn}
                                         onPress={() => setAlertDelVisible(false)}
                                     >
                                         <Text style={styles.alertTextBtn}>Cancel</Text>
@@ -345,7 +345,7 @@ const styles = StyleSheet.create({
 
     alertBtnContainer: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
         width: '100%',
     },
 

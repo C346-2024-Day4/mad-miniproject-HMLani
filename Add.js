@@ -169,7 +169,7 @@ const Add = ({navigation}) => {
                                             setAlertAddedVisible(false);
                                         }}
                                     >
-                                        <Text style={styles.alertTextBtn}>Submit</Text>
+                                        <Text style={styles.alertTextBtn}>OK</Text>
                                     </TouchableOpacity>
                                 </View>
                             </View>
