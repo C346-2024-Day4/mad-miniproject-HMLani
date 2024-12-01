@@ -3,6 +3,8 @@ import {NavigationContainer} from "@react-navigation/native";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import Home from "./Home.js";
 import Add from "./Add.js";
+import View from "./View.js";
+import Edit from "./Edit.js";
 
 const Stack = createNativeStackNavigator();
 const Navigation = () => {
@@ -11,6 +13,8 @@ const Navigation = () => {
             <Stack.Navigator screenOptions={{headerShown: false}}>
                 <Stack.Screen name="Home" component={Home}/>
                 <Stack.Screen name="Add" component={Add}/>
+                <Stack.Screen name="View" component={View}/>
+                <Stack.Screen name="Edit" component={Edit}/>
             </Stack.Navigator>
         </NavigationContainer>
     );

@@ -1,4 +1,4 @@
-import {Image, SafeAreaView, StyleSheet, Text, View, SectionList, TouchableOpacity, Button} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, Text, View, SectionList, TouchableOpacity} from 'react-native';
 import React from 'react';
 import { useFonts } from "expo-font";
 import { useCallback } from 'react';
@@ -10,7 +10,20 @@ SplashScreen.preventAutoHideAsync();
 export default function Home({navigation}) {
     const renderItem = ({item, index, section}) => {
         return(
-            <TouchableOpacity>
+            <TouchableOpacity
+                onPress={() => {
+                    navigation.navigate('View', {
+                        index: index,
+                        type: section.title,
+                        imgHeadId: item.imgHeadId,
+                        imgTailId: item.imgTailId,
+                        character: item.character,
+                        releaseDate: item.releaseDate,
+                        presentBy: item.presentBy,
+                        desc: item.desc,
+                    });
+                }}
+            >
                 <View style={[styles.itemContainer, index === section.data.length - 1 && styles.itemLast]}>
                     <Image
                         source={{uri: `https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_${item.imgHeadId}-${item.imgTailId}.png`}}

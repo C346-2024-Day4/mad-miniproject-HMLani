@@ -19,6 +19,7 @@
     "react": "18.3.1",
     "react-native": "0.76.3",
     "react-native-autogrow-textinput": "^5.4.0",
+    "react-native-customisable-alert": "^0.1.20",
     "react-native-picker-select": "^9.3.1",
     "react-native-vector-icons": "^10.2.0"
   },
