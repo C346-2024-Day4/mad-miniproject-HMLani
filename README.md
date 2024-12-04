@@ -137,4 +137,4 @@ Video walkthrough of the app:
 ------------
 
 Feel free to download this app to your phone:
-Link to APK file of the app: [Download APK](./docs/app-release.apk)
+Link to APK file of the app: [Download APK](./docs/Nintendo-Amiibo-Collection.apk)
