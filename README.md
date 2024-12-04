@@ -8,8 +8,6 @@
 
 This app that I've made in React Native is about showing your favourite amiibo character's in a variety of series that a popular game company in Japan, Nintendo, has released. Now, you maybe asking what is an amiibo? Well, let me tell you. Amiibo's are a small figurines character's from different series that Nintendo has launched over the past years ranging from Animal Crossing to Super Mario Bros. to Metriod series. These figurines character's can be played in some games such as Super Samsh Bros., Mario Kart Deluxe 8 and more. Anyways, enough about the amiibo history/lore, this is about the app that I've created for it and heres are some features that I've implement into my app.
 
-### Adding a amiibo:
-
 <img src="https://github.com/user-attachments/assets/2976fd33-367d-45bc-a2d3-6cb142f05455" alt="Text Box (Add amiibo)" width="400" height="100"> 
 
 When a user want to add an amiibo into the list of the home page, they'll need to enter in the details of a character in mind into the textboxes shown here. There are 6 textboxes that they need to key in the details about the amiibo, you can watch a demo on how to do it below my screenshots. 
@@ -136,4 +134,4 @@ Video walkthrough of the app:
  
 ------------
 
-Feel free to download this app to your phone! (click on the release section at the right side of my page)
+You can find my apk file to download at the releases section beneath the about section at sidebar.
