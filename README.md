@@ -136,5 +136,4 @@ Video walkthrough of the app:
  
 ------------
 
-Feel free to download this app to your phone:
-Link to APK file of the app: [Download APK](/releases/latest/download/Nintendo-Amiibo-Collection-apk-file.zip)
+Feel free to download this app to your phone! (click on the release section at the right side of my page)
