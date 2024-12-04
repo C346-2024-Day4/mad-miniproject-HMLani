@@ -137,4 +137,4 @@ Video walkthrough of the app:
 ------------
 
 Feel free to download this app to your phone:
-Link to APK file of the app: [Download APK](<a href="/images/myw3schoolsimage.jpg" download="w3logo"></a>)
+Link to APK file of the app: [Download APK](/releases/latest/download/Nintendo-Amiibo-Collection-apk-file.zip)
